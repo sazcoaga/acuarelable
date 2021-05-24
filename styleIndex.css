@@ -282,20 +282,57 @@ button a{
     
 
     #contenedorMarca{
-        width: 450px;
+        width: 250px;
     }
 
     #nombreMarca{
-        font-size: 80px;
-        left: 15%;
-        top: 25%;
+        font-size: 50px;
+        left: 10%;
+        top: 50%;
+    }
+    .parrafoPresentacion{
+        padding: 0;
+        margin: 15% 5%;
+    }
+
+    .videoIndex{
+        width: 300px;
+        position: relative;
+        
+    }
+
+    .contenedorVideo{
+        margin: 0 auto;
+        width: auto;
+    }
+
+    .divVideoIndex{
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .contenedorTitulo{
+        margin-bottom: 10%;
+    }
+    .tituloOpciones{
+        font-size: 40px;
+        top: 60%;
+       
+    }
+
+    .opcion{
+        width: 80%;
     }
     .seccion3{
         justify-content: center;
         flex-wrap: wrap;
     }
+
+
     .imagenConoceme{
         width: 100%;
+        height: 250px;
     }
 
     .contenidoParrafo{
@@ -305,6 +342,13 @@ button a{
     }
 
     .contenedorTituloConoceme{
-        width: 450px;
+        margin-top: 10%;
+        width: 250px;
+    }
+
+    .tituloConoceme{
+        font-size: 50px;
+        top: 50%;
+        left: 20%;
     }
 }
