@@ -3,32 +3,96 @@
     padding: 0;
     box-sizing: border-box;
 }
+ /*
+.seccion1{
+    background-image: url(imagenes/fondo2.png);
+background-repeat: repeat;
+}
+*/
+
+
+.contenedorTitulo{
+    position: relative;
+    height: 100px;
+    background-color: #FFE033;
+    width: 550px;
+    margin: 5% auto;
+}
+
+.titulo{
+    position: absolute;
+    font-size: 100px;
+    left: 100px;
+    top: 15%;
+
+}
+
 
 
 .imagenGaleria{
-    max-width: 250px;
-    border: 3px solid black;
-    border-radius: 10px;
+   width: 319px;
+   /*border: 5px solid rgba(255, 61, 127, 0.6);*/
+   border-radius: 10px;
+   
 }
 
 
-.imagenGaleria:hover{
-    opacity: 0.2;
-}
 
 
 .contenedorImagen{
     
-    padding: 1%;
     position: relative;
+    margin: 1% 0;
+    text-align: center;
 }
 
 .tituloAcuarela{
-    position: absolute;
-    bottom: 5%;
-    left: 15%;
-    font-size: 150%;
     
+    width: 320px;
+    height: 475px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 10px;
+    text-align: end;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 50px;
+    padding-right: 15px;
+    border-radius: 10px;
+
+
    
 }
 
+.tituloAcuarela:hover{
+    display: none;
+}
+
+.verMas{
+margin-top: 80%;
+text-align: center;
+}
+
+
+
+/*MEDIA EXTRA LARGE*/
+@media screen and (min-width: 1200px)  {
+    
+}
+
+/*MEDIA LARGE*/
+@media screen and (min-width: 992px ) and (max-width: 1199px) {
+    
+}
+
+
+/*MEDIA MEDIUM*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+/*MEDIA SMALL*/
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    
+}

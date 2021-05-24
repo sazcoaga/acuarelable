@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="styleGaleria.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -19,35 +20,57 @@
               </button>
               <div class="menu collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="contenedorBotonesMenu navbar-nav">
-                  <a class="botonMenu nav-link" aria-current="page" href="index.html">Inicio</a>
-                  <a class="botonMenu nav-link active" href="index.html#conoceme">Conoceme</a>
-                  <a class="botonMenu nav-link" href="galeria.html">Galería</a>
-                  <a class="botonMenu nav-link" href="contacto.html">Contacto</a>
+                  <a class="botonMenu inicio nav-link" aria-current="page" href="index.html">Inicio</a>
+                  <a class="botonMenu conoceme nav-link " href="index.html#conoceme">Conoceme</a>
+                  <a class="botonMenu galeria nav-link active" href="galeria.html">Galería</a>
+                  <a class="botonMenu contacto nav-link" href="contacto.html">Contacto</a>
                 </div>
               </div>
             </div>
           </nav>
         </header>
-    
-<section class="conteiner-fluid">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 contenedorImagen"> <img class="img-fluid imagenGaleria" src="imagenes/foto01.jpg" alt=""> <div class="tituloAcuarela">Título Acuarela</div></div>
-            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 contenedorImagen"> <img class="img-fluid imagenGaleria" src="imagenes/foto02.jpg" alt=""> <div class="tituloAcuarela">Título Acuarela</div></div>
-            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 contenedorImagen"> <img class="img-fluid imagenGaleria" src="imagenes/foto03.jpg" alt=""> <div class="tituloAcuarela">Título Acuarela</div></div>
-            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 contenedorImagen"> <img class="img-fluid imagenGaleria" src="imagenes/foto04.jpg" alt=""> <div class="tituloAcuarela">Título Acuarela</div></div>
-            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 contenedorImagen"> <img class="img-fluid imagenGaleria" src="imagenes/foto05.jpg" alt=""> <div class="tituloAcuarela">Título Acuarela</div></div>
-            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 contenedorImagen"> <img class="img-fluid imagenGaleria" src="imagenes/foto06.jpg" alt=""> <div class="tituloAcuarela">Título Acuarela</div></div>
-            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 contenedorImagen"> <img class="img-fluid imagenGaleria" src="imagenes/foto07.jpg" alt=""> <div class="tituloAcuarela">Título Acuarela</div></div>
-            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 contenedorImagen"> <img class="img-fluid imagenGaleria" src="imagenes/foto08.jpg" alt=""> <div class="tituloAcuarela">Título Acuarela</div></div>
-            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 contenedorImagen"> <img class="img-fluid imagenGaleria" src="imagenes/foto09.jpg" alt=""> <div class="tituloAcuarela">Título Acuarela</div></div>
-            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 contenedorImagen"> <img class="img-fluid imagenGaleria" src="imagenes/foto010.jpg" alt=""> <div class="tituloAcuarela">Título Acuarela</div></div>
-            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 contenedorImagen"> <img class="img-fluid imagenGaleria" src="imagenes/foto011.jpg" alt=""> <div class="tituloAcuarela">Título Acuarela</div></div>
-            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 contenedorImagen"> <img class="img-fluid imagenGaleria" src="imagenes/foto012.jpg" alt=""> <div class="tituloAcuarela">Título Acuarela</div></div>
-            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 contenedorImagen"> <img class="img-fluid imagenGaleria" src="imagenes/foto013.jpg" alt=""> <div class="tituloAcuarela">Título Acuarela</div></div>
+
+        <div data-aos="fade-up" data-aos-duration="1500" class="contenedorTitulo">
+          <div  data-aos="fade-up" data-aos-duration="1500" class="titulo">
+            Galería
+          </div>
+        </div>
+
+
+<section class="seccion1 conteiner-fluid">
+    <div class="contenedorSeccion1 container">
+        <div class="row contenedorImagenes">
+            <div data-aos="fade-up" data-aos-duration="1000" class="col-sm-8 col-md-6 col-lg-4 col-xl-3 contenedorImagen">
+               <img class=" imagenGaleria" src="imagenes/foto01.jpg" alt=""> 
+               <div class="tituloAcuarela">
+                 <div> Título Acuarela</div>
+                <div class="verMas"> Ver más</div>
+              </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1500" class="col-sm-8 col-md-6 col-lg-4 col-xl-3 contenedorImagen"> <img class=" imagenGaleria" src="imagenes/foto02.jpg" alt=""> <div class="tituloAcuarela">Título Acuarela</div></div>
+            <div data-aos="fade-up" data-aos-duration="2000" class="col-sm-8 col-md-6 col-lg-4 col-xl-3 contenedorImagen"> <img class=" imagenGaleria" src="imagenes/foto03.jpg" alt=""> <div class="tituloAcuarela">Título Acuarela</div></div>
+            <div data-aos="fade-up" data-aos-duration="2500" class="col-sm-8 col-md-6 col-lg-4 col-xl-3 contenedorImagen"> <img class=" imagenGaleria" src="imagenes/foto04.jpg" alt=""> <div class="tituloAcuarela">Título Acuarela</div></div>
+            <div data-aos="fade-up" data-aos-duration="3000" class="col-sm-8 col-md-6 col-lg-4 col-xl-3 contenedorImagen"> <img class=" imagenGaleria" src="imagenes/foto05.jpg" alt=""> <div class="tituloAcuarela">Título Acuarela</div></div>
+            <div data-aos="fade-up" data-aos-duration="5000" class="col-sm-8 col-md-6 col-lg-4 col-xl-3 contenedorImagen"> <img class=" imagenGaleria" src="imagenes/foto06.jpg" alt=""> <div class="tituloAcuarela">Título Acuarela</div></div>
+            <div data-aos="fade-up" data-aos-duration="5000" class="col-sm-8 col-md-6 col-lg-4 col-xl-3 contenedorImagen"> <img class=" imagenGaleria" src="imagenes/foto07.jpg" alt=""> <div class="tituloAcuarela">Título Acuarela</div></div>
+            <div data-aos="fade-up" data-aos-duration="5000" class="col-sm-8 col-md-6 col-lg-4 col-xl-3 contenedorImagen"> <img class=" imagenGaleria" src="imagenes/foto08.jpg" alt=""> <div class="tituloAcuarela">Título Acuarela</div></div>
+            <div data-aos="fade-up" data-aos-duration="5000" class="col-sm-8 col-md-6 col-lg-4 col-xl-3 contenedorImagen"> <img class=" imagenGaleria" src="imagenes/foto09.jpg" alt=""> <div class="tituloAcuarela">Título Acuarela</div></div>
+            <div data-aos="fade-up" data-aos-duration="5000" class="col-sm-8 col-md-6 col-lg-4 col-xl-3 contenedorImagen"> <img class=" imagenGaleria" src="imagenes/foto010.jpg" alt=""> <div class="tituloAcuarela">Título Acuarela</div></div>
+            <div data-aos="fade-up" data-aos-duration="5000" class="col-sm-8 col-md-6 col-lg-4 col-xl-3 contenedorImagen"> <img class=" imagenGaleria" src="imagenes/foto011.jpg" alt=""> <div class="tituloAcuarela">Título Acuarela</div></div>
+            <div data-aos="fade-up" data-aos-duration="5000" class="col-sm-8 col-md-6 col-lg-4 col-xl-3 contenedorImagen"> <img class=" imagenGaleria" src="imagenes/foto012.jpg" alt=""> <div class="tituloAcuarela">Título Acuarela</div></div>
+            <div data-aos="fade-up" data-aos-duration="5000" class="col-sm-8 col-md-6 col-lg-4 col-xl-3 contenedorImagen"> <img class=" imagenGaleria" src="imagenes/foto013.jpg" alt=""> <div class="tituloAcuarela">Título Acuarela</div></div>
         </div>
     </div>
 </section>
+
+<footer>
+  <div class="redesSociales">
+    <a href="https://www.twitter.com"> <img class="logoRed" src="imagenes/twitter.png" alt=""></a>
+    <a href="https://www.instagram.com"><img src="imagenes/instagram.png" alt="" class="logoRed"></a>
+    <a href="https://www.facebook.com"> <img class= "logoRed" src="imagenes/facebook.png" alt=""></a>
+  </div>
+  <div class="derechos"> &COPY; 2021 - Sofía Azcoaga - Natalia Azcoaga </div>
+</footer>
     
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

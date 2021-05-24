@@ -7,14 +7,16 @@
 
 header{
     margin-bottom: 5%;
-    background-color: #FF9E9D;
+   
     position: sticky;
     top: 0;
-    z-index: 10;
+    z-index: 15;
 }
 nav{
     padding-left: 2%;
     background-color: #FF9E9D;
+    
+    
 }
 
 .contenedorMenu{
@@ -33,4 +35,62 @@ nav{
     display: flex;
     width: 100%;
     justify-content: space-between;
+    
+    
+}
+
+.contenedorBotonesMenu a{
+  
+    width: 100px;
+    text-align: center;
+}
+
+
+
+footer{
+    background-color: #FF9E9D;
+    height: 70px;
+    margin-top: 50px;
+}
+
+.redesSociales{
+    position:absolute;
+    left: 20px;
+    padding: 5px;
+}
+
+.derechos{
+    position: absolute;
+    right: 0;
+    padding-top: 20px;
+    padding-right: 15px;
+}
+
+.logoRed{
+    width: 50px;
+    margin-right: 30px;
+}
+
+
+
+
+/*MEDIA EXTRA LARGE*/
+@media screen and (min-width: 1200px)  {
+    
+}
+
+/*MEDIA LARGE*/
+@media screen and (min-width: 992px ) and (max-width: 1199px) {
+    
+}
+
+
+/*MEDIA MEDIUM*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+/*MEDIA SMALL*/
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    
 }

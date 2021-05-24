@@ -64,6 +64,7 @@ padding: 0;
 
     position: relative;
     width: 50%;
+    display: none;
 }
 
 .decoracionCuadrados{
@@ -161,6 +162,7 @@ button a{
 .seccion3{
     display: flex;
     padding: 0;
+    margin-bottom: 15%;
     
     
 }
@@ -209,3 +211,100 @@ button a{
     width: 60%;
 }
 
+
+/*MEDIA EXTRA LARGE*/
+@media screen and (min-width: 1200px)  {
+
+    .cuadradosDecoracion{
+        display: block;
+    }
+
+
+    
+}
+
+/*MEDIA LARGE*/
+@media screen and (min-width: 992px ) and (max-width: 1199px) {
+    
+   .parrafoPresentacion{
+       width: 600px;
+       margin: 10% 25%;
+    
+   }
+
+   
+}
+
+
+/*MEDIA MEDIUM*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .parrafoPresentacion{
+        width: 60%;
+        max-width: 500px;
+        margin: 10% 20%;
+     
+    }
+
+    .contenidoParrafo{
+        width: 50%;
+    }
+    .imagenConoceme{
+        width: 50%;
+    }
+
+    .contenedorTituloConoceme{
+        width: 450px;
+    }
+}
+
+/*MEDIA SMALL*/
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    
+    .seccion3{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .imagenConoceme{
+        width: 100%;
+    }
+
+    .contenidoParrafo{
+        margin-top: 20%;
+    }
+
+
+}
+
+/*MEDIA EXTRA SMALL*/
+
+@media screen and (min-width: 0px) and (max-width: 766px){
+    
+
+    #contenedorMarca{
+        width: 450px;
+    }
+
+    #nombreMarca{
+        font-size: 80px;
+        left: 15%;
+        top: 25%;
+    }
+    .seccion3{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .imagenConoceme{
+        width: 100%;
+    }
+
+    .contenidoParrafo{
+        width: 100%;
+        padding: 5%;
+        padding-top: ;
+    }
+
+    .contenedorTituloConoceme{
+        width: 450px;
+    }
+}
