@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acuarelable</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleIndex.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    
+    <header >
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="contenedorMenu container-fluid">
+          <a class="navbar-brand" href="index.html">Acuarelable</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="menu collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="contenedorBotonesMenu navbar-nav">
+              <a class="botonMenu nav-link active" aria-current="page" href="#">Inicio</a>
+              <a class="botonMenu nav-link" href="index.html#conoceme">Conoceme</a>
+              <a class="botonMenu nav-link" href="galeria.html">Galería</a>
+              <a class="botonMenu nav-link" href="contacto.html">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section  class="container-fluid seccion1">
+        <div class="row">
+
+            <div data-aos="fade-up" data-aos-duration="3000" class="contenidoIndex col-lg-6 col-md-12 col-sm-12">
+                <div data-aos="fade-up" id="contenedorMarca">
+                    <div id="nombreMarca">Acuarelable</div>
+                </div>
+                <div data-aos="fade-up" class="parrafoPresentacion">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum sint in repellat illum iste officia aut, perspiciatis sit incidunt! Voluptate deserunt commodi nemo libero neque in est adipisci numquam quisquam!</div>
+
+            </div>
+
+            <div data-aos = "fade-left" data-aos-duration="1500" class="contenedorVideo col-lg-6 col-md-12 col-sm-12">
+                <div class="divVideoIndex">
+                    <video autoplay loop controls class="videoIndex" src="imagenes/videoIndex.mp4"></video>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="seccion2 container-fluid">
+        <div class="contenedorTituloOpciones">
+            <div data-aos="fade-up" data-aos-duration="2000" class="contenedorTitulo">
+                <div class="tituloOpciones">Acá va un título</div>
+            </div>
+            <div  class="cuadradosDecoracion">
+                <div data-aos="fade-left" data-aos-duration="500" class="cuadrado1 decoracionCuadrados"></div>
+                <div data-aos="fade-left" data-aos-duration="500" class="cuadrado2 decoracionCuadrados"></div>
+                <div data-aos="fade-left" data-aos-duration="500" class="cuadrado3 decoracionCuadrados"></div>
+                <div data-aos="fade-left" data-aos-duration="500" class="cuadrado4 decoracionCuadrados"></div>
+                <div data-aos="fade-left" data-aos-duration="500" class="cuadrado5 decoracionCuadrados"></div>
+            </div>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="2000" class="contenedorOpciones">
+            <div class="row">
+                <div class=" contenedorOpcion col-lg-6 col-md-12 col-sm-12">
+                    <div class="opcion">
+                        <div class="tituloOpcion">Título opción</div>
+                        <div class="parrafoOpcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, quasi. Quasi adipisci maxime nobis beatae autem pariatur</div>
+                        <hr>
+                        <button><a href="">Ver más</a></button>
+                    </div>
+                </div>
+                <div class=" contenedorOpcion col-lg-6 col-md-12 col-sm-12">
+                    <div class="opcion">
+                        <div class="tituloOpcion">Título opción</div>
+                        <div class="parrafoOpcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, quasi. Quasi adipisci maxime nobis beatae autem pariatur</div>
+                        <hr>
+                        <button><a href="">Ver más</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="conoceme" class="container-fluid seccion3">
+
+        <div data-aos="fade-right" data-aos-duration="2000" class="contenidoConoceme imagenConoceme">
+            <img class="imgConoceme" src="imagenes/fotoPresentacion1.jpeg" alt="">
+
+        </div>
+        <div class="contenidoConoceme contenidoParrafo">
+            <div data-aos="fade-up"  class="contenedorTituloConoceme">
+                <div class="tituloConoceme">Sobre mí</div>
+            </div>
+            <div data-aos="fade-up" class="parrafoConoceme">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium blanditiis nesciunt assumenda delectus deleniti iusto officia voluptate asperiores! Necessitatibus at fuga laudantium sunt vero repudiandae autem incidunt assumenda rerum quisquam.</div>
+        </div>
+        
+    </section>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
